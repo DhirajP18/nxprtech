@@ -21,17 +21,23 @@ const Home: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-center mb-2 space-y-4 md:space-y-0 md:space-x-8 relative z-20"> 
             {/* LOGO: Massive size retained */}
             <img 
-                src="/Newlogo.png" 
+                src="/logo.png" 
                 alt="Nexspire Technologies Logo" 
                 className="w-64 h-64 md:w-80 md:h-80 object-contain drop-shadow-2xl" 
             />
             
             {/* COMPANY NAME: Compact size retained */}
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mt-4 md:mt-0 max-w-full"> 
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-purple-700 to-pink-600 drop-shadow-xl whitespace-nowrap">
-                    Nexspire Technologies
-                </span>
-            </h1>
+            <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight mt-4 md:mt-0 max-w-full text-center md:text-left">
+  <span className="
+    text-transparent bg-clip-text 
+    bg-gradient-to-r from-cyan-600 via-purple-700 to-pink-600 
+    drop-shadow-xl 
+    block leading-tight
+    whitespace-normal md:whitespace-nowrap
+  ">
+    Nexspire Technologies
+  </span>
+</h1>
         </div>
         
         {/* Descriptive Text - Space between this and CTA reduced */}
